@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
 export default class extends Component {
-  render() {
-    var imageData = this.props.images
+  constructor() {
+    super()
+  }
 
-    var imageList = imageData.map(image => {
+  render() {
+    var imageList = this.props.images.map(image => {
       return (
         <div id="img-container">
           <img src={image.src} />
