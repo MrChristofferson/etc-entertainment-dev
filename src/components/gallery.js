@@ -10,7 +10,7 @@ export default class extends Component {
       return (
         <div id="img-container">
           <img src={image.src} />
-          <div className="img-overlay">Teehee</div>
+          <div className="img-overlay">Image</div>
         </div>
       )
     })

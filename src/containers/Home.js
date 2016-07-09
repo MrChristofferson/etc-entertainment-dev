@@ -4,16 +4,8 @@ import Gallery from '../components/gallery'
 
 export default class extends Component {
   render() {
+
     var images = [
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
-      {src: '../img/fpo.jpg'},
       {src: '../img/fpo.jpg'},
       {src: '../img/fpo.jpg'},
       {src: '../img/fpo.jpg'},
@@ -24,6 +16,8 @@ export default class extends Component {
 
     return (
       <PageTransition>
+        <Gallery images={images}/>
+        <Gallery images={images}/>
         <Gallery images={images}/>
       </PageTransition>
     )
