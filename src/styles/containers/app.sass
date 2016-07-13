@@ -1,13 +1,21 @@
 html
   background-color: #f6f7fa
-  font-family: $primary_font_family
+  font-family: $primary_font_family, Arial
 #app
+  height: 100vh !important
+  width: 100vw !important
   display: flex
   #app-navigation
-    width: 225px
-  #app-body
     flex: 1
+  #app-body
+    flex: 4
   #app-content
+    padding: 14px
+    position: relative
     display: flex
-    overflow-y: scroll
-    height: 100vh
+    overflow: hidden
+    height: 96vh
+    background: #b4b7b8
+    .page
+      background: #fff
+      width: 100%

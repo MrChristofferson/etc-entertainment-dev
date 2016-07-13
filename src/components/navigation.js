@@ -8,9 +8,10 @@ export default class extends Component {
       { to: '/booths', text: 'Booths'},
       { to: '/about', text: 'About'},
       { to: '/reviews', text: 'Reviews'},
-      { to: '/services', text: 'Services'},
+      { to: '/pricing', text: 'Pricing'},
       { to: '/contact', text: 'Contact'}
     ]
+
     return (
       <div id="app-navigation">
         <Link to="/" className="logo">

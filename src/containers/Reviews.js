@@ -5,8 +5,8 @@ export default class extends Component {
   render() {
     return (
       <PageTransition>
-        <section className="page booths">
-          Booths
+        <section className="page reviews">
+          Reviews
         </section>
       </PageTransition>
     )

@@ -1,9 +1,10 @@
-#gallery-container
+.gallery-container
+  user-select: none
   display: inline-block
   width: 33.3%
-  #gallery
+  .gallery
     flex-direction: column
-    #img-container
+    .img-container
       position: relative
       img
         display: block
@@ -20,6 +21,7 @@
         text-align: center
         background: rgba(45, 184, 183, 0.5)
         color: #fff
+        cursor: pointer
       &:hover
         .img-overlay
           opacity: 1
