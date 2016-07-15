@@ -9,9 +9,6 @@
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
     "posttest": "npm run lint",
-    "release:major": "npm version major && npm publish && git push --follow-tags",
-    "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "serve": "nodemon ./server/server.js",
     "serve:dist": "node server.js --env=dist",
     "start": "node server.js --env=dev"
@@ -51,13 +48,13 @@
     "webpack-dev-server": "^1.12.0"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "normalize.css": "^4.1.1",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-images": "^0.4.6",
     "react-motion": "^0.4.4",
-    "react-photo-gallery": "^4.2.8",
     "react-router": "^2.4.1",
+    "scrape-it": "^3.1.1",
     "superagent": "^2.0.0"
   }
 }

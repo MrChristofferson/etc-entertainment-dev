@@ -23,7 +23,7 @@ export default class extends Component {
     var images = [
       {src: '../img/fpo.jpg', id: 1},
       {src: '../img/fpo.jpg', id: 2},
-      {src: '../img/fpo.jpg', id: 3},
+      {src: '../img/fpo4.gif', id: 3},
       {src: '../img/fpo.jpg', id: 4},
       {src: '../img/fpo.jpg', id: 5},
       {src: '../img/fpo.jpg', id: 6},
