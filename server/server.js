@@ -7,7 +7,7 @@ app.get('/get_prices', (req, res) => {
   scrape('http://www.memorylanephotobooth.com/pricing.html', {
     text: '#wsb-element-00000000-0000-0000-0000-000455621551 .txt'
   }).then(page => {
-    res.json(page);
+    res.json(page)
   })
 })
 
