@@ -1,22 +1,42 @@
-html
-  background-color: #f6f7fa
-  font-family: $primary_font_family, Arial
-  text-rendering: geometricPrecision
-#app
-  height: 100vh !important
-  width: 100vw !important
-  display: flex
-  #app-navigation
-    flex: 1
-  #app-body
-    flex: 4
-  #app-content
-    padding: 14px
-    position: relative
-    display: flex
-    overflow: hidden
-    height: 96vh
-    background: #b4b7b8
-    .page
-      background: #fff
-      width: 100%
+body
+	color: #fff
+	background: #222
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1)
+	font-family: 'Lato'
+	font-weight: 300
+	transition: 0.6s all ease
+	&.left-menu-active
+		transform: translateX(360px)
+		
+	&.right-menu-active
+		transform: translateX(-360px)
+
+a
+	text-decoration: none
+	color: #fff
+
+video
+	opacity: 0.1
+	position: absolute
+	top: 0
+	z-index: -1
+
+.page
+	display: flex
+	justify-content: center
+	height: 100vh
+	width: 100vw
+
+.fa-arrow-left
+	position: absolute
+	top: 270px
+	left: 40px
+	font-size: 40px
+	cursor: pointer
+
+.fa-arrow-right
+	position: absolute
+	top: 270px
+	right: 40px
+	font-size: 40px
+	cursor: pointer
