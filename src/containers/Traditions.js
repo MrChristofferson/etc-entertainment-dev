@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { PageTransition } from '../util/transitions'
 
-class Live extends Component {
+class Traditions extends Component {
   render() {
     return (
       <PageTransition>
-        <section className="live">
-					<h1>LIVE</h1>
+        <section className="traditions">
+					<h1>TRADITIONS</h1>
           <img src="../img/ryan.jpg" />
           <div className="title-stripe">
             <h2>WHAT TO EXPECT</h2>
@@ -26,4 +26,4 @@ class Live extends Component {
   }
 }
 
-export default Live
+export default Traditions

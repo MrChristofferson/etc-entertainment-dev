@@ -6,7 +6,7 @@ export default class extends Component {
     var links = [
       { to: '/', text: 'Home'},
       { to: '/about', text: 'About'},
-      { to: '/about', text: 'Sermons'}
+      { to: '/about', text: 'Staff'}
     ]
 
     return (
